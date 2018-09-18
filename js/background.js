@@ -911,7 +911,7 @@ if (!SAFARI) {
                 badge_text = ""; // Only show the user when we've done something useful
             }
             browsersBadgeOptions.badge_text = badge_text;
-            browsersBadgeOptions.iconPaths = {"19": "img/icon19.png", "38": "img/icon38.png"};
+            browsersBadgeOptions.iconPaths = {"19": "img/coca-cola_logo_19x19.png", "38": "img/coca-cola_logo_38x38.png"};
             // see for more details - https://code.google.com/p/chromium/issues/detail?id=410868#c8
             setBrowserActions(browsersBadgeOptions);
         }
