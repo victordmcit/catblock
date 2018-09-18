@@ -332,7 +332,7 @@ var picinjection = {
                         // independent.co.uk borders all imgs
                         border: "none"
                     },
-                    src: chrome.runtime.getURL(folder + "icon19.png")
+                    src: chrome.runtime.getURL(folder + "coca-cola_logo_19x19.png")
                 })).
                 append("<br>");
 

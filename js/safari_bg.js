@@ -277,9 +277,9 @@ function dispatchMessage(command) {
 }
 
 // Open Options page upon settings checkbox click.
-safari.extension.settings.openCatBlockOptions = false;
+safari.extension.settings.openCokeAdBlockerOptions = false;
 safari.extension.settings.addEventListener("change", function(e) {
-    if (e.key === "openCatBlockOptions") {
+    if (e.key === "openCokeAdBlockerOptions") {
         openTab("options/index.html");
     }
 }, false);

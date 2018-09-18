@@ -1,13 +1,13 @@
 {
-  "author": "CatBlock Team",
+  "author": "Victor Moraes",
   "background": {
     "page": "background.html",
     "persistent": true
   },
   "browser_action": {
     "default_icon": {
-      "19": "img/icon19.png",
-      "38": "img/icon38.png"
+      "19": "img/coca-cola_logo_19x19.png",
+      "38": "img/coca-cola_logo_38x38.png"
     },
     "default_popup": "button/popup.html",
     "default_title": "__MSG_catblock_adblock_click_for_details__"
@@ -64,16 +64,16 @@
   ],
   "content_security_policy": "default-src 'self'; style-src 'self' 'unsafe-inline'; connect-src *; img-src *;",
   "default_locale": "en",
-  "description": "CatBlock is like an ad blocker, but instead of blocking ads it shows you pictures of cats (configurable)",
+  "description": "Coke Optimism Ad Blocker will replace any website ads by pictures related to optimistic motivationals and pictures alongside with Coca-Cola and its brands",
   "icons": {
-    "128": "img/icon128.png",
-    "16": "img/icon16.png",
-    "48": "img/icon48.png"
+    "128": "img/coca-cola_logo_128x128.png",
+    "16": "img/coca-cola_logo_16x16.png",
+    "48": "img/coca-cola_logo_48x48.png"
   },
   "incognito": "spanning",
   "manifest_version": 2,
   "minimum_chrome_version": "49",
-  "name": "CatBlock",
+  "name": "Coke Optimism Ad Blocker",
   "optional_permissions": [
     "management"
   ],
@@ -127,7 +127,7 @@
     "catblock/pix/wide2.jpg",
     "catblock/pix/wide3.jpg",
     "catblock/pix/wide4.jpg",
-    "img/icon19.png",
-    "img/icon24.png"
+    "img/coca-cola_logo_19x19.png.png",
+    "img/coca-cola_logo_24x24.png.png"
   ]
 }
