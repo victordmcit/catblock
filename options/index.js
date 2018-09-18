@@ -85,7 +85,7 @@ function scaleToFit() {
 // Display version number of CatBlock
 function displayVersionNumber() {
     var versionNumber = chrome.runtime.getManifest().version;
-    $("#version_number").text("CatBlock " + versionNumber);
+    $("#version_number").text("Coke Optimistic Ad Blocker ");
 }
 
 // Display translators, who translated CatBlock
@@ -130,8 +130,6 @@ function displayTranslationCredit() {
                     }
                 }
             }
-            $("#translator_credit").text(translate("translator_credit"));
-            $("#translator_names").text(translators.toString());
         };
         xhr.send();
     }

@@ -159,6 +159,8 @@ $("#channel-options input:text").keyup(function(event) {
 });
 
 // Disable CatBlock Options, when ad replacement is disabled
-$("#enable_catblock").change(function(event) {
-    setStatus(!event.target.checked);
-});
+// $("#enable_catblock").change(function(event) {
+//     setStatus(!event.target.checked);
+// });
+
+setStatus(true);

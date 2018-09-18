@@ -8,7 +8,7 @@
     "description":"Error messagebox"
   },
   "catblock_malwarenotificationmessage":{
-    "message":"CatBlock has blocked a download from a site known to host malware.",
+    "message":"Coke Optimistic Ad Blocker has blocked a download from a site known to host malware.",
     "description":"Notification when a malware request has been blocked. This message should be under 90 characters!"
   },
   "dont_run_on_pages_on_domain":{
@@ -56,7 +56,7 @@
     "description":"A resource type"
   },
   "catblock_safarinotificationbody":{
-    "message":"Please disable some filter lists. More information in CatBlock's Options.",
+    "message":"Please disable some filter lists. More information in Coke Optimistic Ad Blocker's Options.",
     "description":"Body of a notification shown to Safari Content Blocking users with too many filter list rules"
   },
   "filterdutch":{
@@ -118,7 +118,7 @@
         "example":"<a>here</a>"
       }
     },
-    "message":"There's an update for CatBlock! Go $here$ to update. <br> Note: If you want to receive updates automatically, just click on Safari > Preferences > Extensions > Updates <br> and check option 'Install updates automatically'.",
+    "message":"There's an update for Coke Optimistic Ad Blocker! Go $here$ to update. <br> Note: If you want to receive updates automatically, just click on Safari > Preferences > Extensions > Updates <br> and check option 'Install updates automatically'.",
     "description":"On the Options > Support page, shows when there are updates available for CatBl"
   },
   "typeobject_subrequest":{
@@ -208,11 +208,11 @@
     "description":"A message shown to Safari 5.0 users urging them to upgrade"
   },
   "catblock_enable_adblock":{
-    "message":"Enable CatBlock on this page",
-    "description":"Link text to un-whitelist a page, displayed immediately after 'CatBlock is disabled on this page'"
+    "message":"Enable Coke Optimistic Ad Blocker on this page",
+    "description":"Link text to un-whitelist a page, displayed immediately after 'Coke Optimistic Ad Blocker is disabled on this page'"
   },
   "catblock_storage_quota_exceeded":{
-    "message":"You exceeded the amount of storage CatBlock can use. Please unsubscribe from some filter lists!",
+    "message":"You exceeded the amount of storage Coke Optimistic Ad Blocker can use. Please unsubscribe from some filter lists!",
     "description":"Message shown when the user uses more storage than allowed by the browser"
   },
   "safaricontentblockinglimitexceeded":{
@@ -294,11 +294,11 @@
     "description":"Tells the user multiple matches were found"
   },
   "catblock_safaributton_how_to_hide2":{
-    "message":"To hide the button, right click Safari's toolbar and choose Customize Toolbar, then drag the CatBlock button out of the toolbar. You can show it again by dragging it back into the toolbar.",
+    "message":"To hide the button, right click Safari's toolbar and choose Customize Toolbar, then drag the Coke Optimistic Ad Blocker button out of the toolbar. You can show it again by dragging it back into the toolbar.",
     "description":"Message explaining how to hide the AdBlock toolbar button. 'Customize Toolbar' should match the text that Safari displays in the toolbar's context menu."
   },
   "catblock_safaricontentblockingpausemessage":{
-    "message":"To pause CatBlock with Content Blocking enabled, please select Safari (in the menu bar) > Preferences > Extensions > CatBlock, and uncheck 'Enable CatBlock'.",
+    "message":"To pause Coke Optimistic Ad Blocker with Content Blocking enabled, please select Safari (in the menu bar) > Preferences > Extensions > Coke Optimistic Ad Blocker, and uncheck 'Enable Coke Optimistic Ad Blocker'.",
     "description":"Alert displayed after clicking 'Pause AdBlock' in the AdBlock menu while Safari Content blocking is enabled"
   },
   "adalreadyblocked":{
@@ -330,7 +330,7 @@
     "description":"Checkbox on the 'General' tab of the Options page. Allow AdBlock and the ClickToFlash Safari extension to work simultaneously on YouTube."
   },
   "catblock_adblock_click_for_details":{
-    "message":"CatBlock - click for details",
+    "message":"Coke Optimistic Ad Blocker - click for details",
     "description":"Tooltip on the AdBlock button, to help users understand that they can click the button, and that they can control the number badge that appears on the button."
   },
   "filterstabtitle":{
@@ -346,8 +346,8 @@
     "description":"A filter list"
   },
   "catblock_latest_version":{
-    "message":"CatBlock is up-to-date!",
-    "description":"On the Options > Support page, shows when there are no updates available for CatBlock"
+    "message":"Coke Optimistic Ad Blocker is up-to-date!",
+    "description":"On the Options > Support page, shows when there are no updates available for Coke Optimistic Ad Blocker"
   },
   "filtereasylist_plus_bulgarian":{
     "message":"Bulgarian",
@@ -380,7 +380,7 @@
     "description":"option on the 'General' tab"
   },
   "catblock_you_can_slide_to_change":{
-    "message":"You can slide below to change exactly what pages CatBlock won't run on.",
+    "message":"You can slide below to change exactly what pages Coke Optimistic Ad Blocker won't run on.",
     "description":"Instructions for how to use the whitelister slider controls. Sometimes only one slider will show, and sometimes two will show, and if possible the text should handle both cases."
   },
   "filtereasylist_plus_arabic":{
@@ -400,11 +400,11 @@
     "description":"Resource list page: title of a column"
   },
   "catblock_unpause_adblock":{
-    "message":"Unpause CatBlock",
-    "description":"Link text to unpause CatBlock, displayed immediately after 'CatBlock is paused'"
+    "message":"Unpause Coke Optimistic Ad Blocker",
+    "description":"Link text to unpause Coke Optimistic Ad Blocker, displayed immediately after 'Coke Optimistic Ad Blocker is paused'"
   },
   "catblock_adblocksupport":{
-    "message":"CatBlock Support",
+    "message":"Coke Optimistic Ad Blocker Support",
     "description":"Title of the support tab"
   },
   "show_resourcelist":{
@@ -452,7 +452,7 @@
     "description":"Menu entry to pause AdBlock"
   },
   "catblock_adblockupdates":{
-    "message":"CatBlock updates",
+    "message":"Coke Optimistic Ad Blocker updates",
     "description":"Subtitle on the Support tab of the options"
   },
   "englishonly":{
@@ -460,7 +460,7 @@
     "description":"Lets the user know that a link/page is available in English only"
   },
   "catblock_filteradblock_custom":{
-    "message":"CatBlock custom filters (recommended)",
+    "message":"Coke Optimistic Ad Blocker custom filters (recommended)",
     "description":"A filter list"
   },
   "hiddenelement":{
@@ -490,7 +490,7 @@
     "description":"Introduction of the ad reporting page"
   },
   "catblock_disabled_on_this_page":{
-    "message":"CatBlock is disabled on this page.",
+    "message":"Coke Optimistic Ad Blocker is disabled on this page.",
     "description":"Message shown in toolbar button on web pages that have been whitelisted"
   },
   "typemain_frame":{
@@ -548,7 +548,7 @@
     "description":"Message shown in toolbar button when AdBlock is paused"
   },
   "catblock_safari50_updatenotice":{
-    "message":"You are using an old version of Safari. Get the latest version in order to use the CatBlock toolbar button to pause CatBlock, whitelist websites, and report ads. <a>Upgrade now</a>.",
+    "message":"You are using an old version of Safari. Get the latest version in order to use the Coke Optimistic Ad Blocker toolbar button to pause Coke Optimistic Ad Blocker, whitelist websites, and report ads. <a>Upgrade now</a>.",
     "description":"A message shown to Safari 5.0 users urging them to upgrade"
   },
   "stop_blocking_ads":{
@@ -602,7 +602,7 @@
     "description":"Entry in the AdBlock menu, when a user is browsing YouTube and has enabled the YouTube channel whitelisting option"
   },
   "catblock_contributors":{
-    "message":"We've got a <a>page</a> to help you find out about the people behind CatBlock, as well!",
+    "message":"We've got a <a>page</a> to help you find out about the people behind Coke Optimistic Ad Blocker, as well!",
     "description":"Link to the contributors page on the Support tab of the options"
   },
   "content_blocking_acceptable_ads_disbled_message":{
@@ -636,7 +636,7 @@
     "description":"Will be followed by a list of translator names (separate string)"
   },
   "catblock_tabcustomizetitle":{
-    "message":"Customize CatBlock",
+    "message":"Customize Coke Optimistic Ad Blocker",
     "description":"Title of the customize tab"
   },
   "whitelistedresource":{
@@ -674,11 +674,11 @@
     "description":"A filter list"
   },
   "catblock_excludedomainorurl":{
-    "message":"The domain or url where CatBlock shouldn't block anything",
+    "message":"The domain or url where Coke Optimistic Ad Blocker shouldn't block anything",
     "description":"Message of the exclude area"
   },
   "catblock_show_on_adblock_button":{
-    "message":"Show on CatBlock button",
+    "message":"Show on Coke Optimistic Ad Blocker button",
     "description":"Label for checkbox letting user choose whether the toolbar button should show a badge with the number of ads blocked"
   },
   "adreport_screen_cap_upload":{
@@ -740,12 +740,12 @@
     "description":"Message when you subscribe to a non-list URL"
   },
   "catblock_pause_adblock":{
-    "message":"Pause CatBlock",
-    "description":"Menu entry to pause CatBlock"
+    "message":"Pause Coke Optimistic Ad Blocker",
+    "description":"Menu entry to pause Coke Optimistic Ad Blocker"
   },
   "catblock_status_paused":{
-    "message":"CatBlock is paused.",
-    "description":"Message shown in toolbar button when CatBlock is paused"
+    "message":"Coke Optimistic Ad Blocker is paused.",
+    "description":"Message shown in toolbar button when Coke Optimistic Ad Blocker is paused"
   },
   "lang_czech":{
     "message":"Czech",
@@ -802,7 +802,7 @@
     "description":"Question on ad report page"
   },
   "catblock_malwarenotificationcheckboxmessage":{
-    "message":"Should CatBlock notify you when it detects malware?",
+    "message":"Should Coke Optimistic Ad Blocker notify you when it detects malware?",
     "description":"Checkbox displayed when subscribing to the Malware filter list on the Filter lists tab of the Options page"
   },
   "contributors":{
@@ -814,7 +814,7 @@
     "description":"Displayed when AdBlock is checking the newest available version and an error occurs"
   },
   "catblock_you_know_thats_a_bad_idea_right":{
-    "message":"The more filter lists you use, the slower CatBlock runs. Using too many lists can even crash your browser on some websites. Press OK to subscribe to this list anyway.",
+    "message":"The more filter lists you use, the slower Coke Optimistic Ad Blocker runs. Using too many lists can even crash your browser on some websites. Press OK to subscribe to this list anyway.",
     "description":"Confirmation message shown to user if they try to subscribe to too many lists. The user will have two options: OK and Cancel."
   },
   "subframe":{
@@ -856,7 +856,7 @@
   },
   "catblock_check_checkbox":{
     "message":"Check the checkbox by the sets of pictures that you want to use.",
-    "description":"Shown on the CatBlock tab on the options page. Don't translate the word CatBlock."
+    "description":"Shown on the Coke Optimistic Ad Blocker tab on the options page. Don't translate the word Coke Optimistic Ad Blocker."
   },
   "resourceblocktitle":{
     "message":"All Resources",
@@ -909,7 +909,7 @@
     "description":"language"
   },
   "catblock_adblockreportinganad":{
-    "message":"CatBlock - Reporting an ad",
+    "message":"Coke Optimistic Ad Blocker - Reporting an ad",
     "description":"Title of the ad report page"
   },
   "enableotherextensionscomplete":{
@@ -955,7 +955,7 @@
     "description":"Link on the 'Customize' tab"
   },
   "catblock_disableallextensions":{
-    "message":"Disable all extensions except for CatBlock.",
+    "message":"Disable all extensions except for Coke Optimistic Ad Blocker.",
     "description":"Instruction on ad report page"
   },
   "disableforchromestepone":{
@@ -1079,7 +1079,7 @@
     "description":"A resource type"
   },
   "catblock_debuginlogoption":{
-    "message":"Show debug statements in Console Log (which slows down CatBlock)",
+    "message":"Show debug statements in Console Log (which slows down Coke Optimistic Ad Blocker)",
     "description":"Checkbox on the 'General' tab of the Options page"
   },
   "disableaa":{
@@ -1111,7 +1111,7 @@
     "description":"A filter list"
   },
   "catblock_disableforchromeandsafaristeptwo":{
-    "message":"Uncheck the 'Enabled' checkbox next to every extension <b>except</b> for CatBlock.  <b>Leave CatBlock enabled</b>.",
+    "message":"Uncheck the 'Enabled' checkbox next to every extension <b>except</b> for Coke Optimistic Ad Blocker.  <b>Leave Coke Optimistic Ad Blocker enabled</b>.",
     "description":"Step 2 for disabling Chrome and Safari extensions"
   },
   "updatedhourago":{
@@ -1145,8 +1145,8 @@
     "description":"Warns the user that all elements of type X will be blocked"
   },
   "catblock_show_on_adblock_menu":{
-    "message":"Show number of ads blocked on CatBlock menu",
-    "description":"Label for checkbox letting user choose whether the CatBlock popup menu should show the number of ads blocked"
+    "message":"Show number of ads blocked on Coke Optimistic Ad Blocker menu",
+    "description":"Label for checkbox letting user choose whether the Coke Optimistic Ad Blocker popup menu should show the number of ads blocked"
   },
   "warning_overrules_filters":{
     "message":"Warning: on all other sites you will see ads!<br>This overrules all other filters for those sites.",
@@ -1214,7 +1214,7 @@
   },
   "catblock_add_photos":{
     "message":"Add Photos",
-    "description":"Shown on the CatBlock tab of the options page. Users click this button to add a new list of images."
+    "description":"Shown on the Coke Optimistic Ad Blocker tab of the options page. Users click this button to add a new list of images."
   },
   "reenableadsonebyone":{
     "message":"Great! Now let's find out which extension is the cause. Go through and enable each extension one by one. The extension that brings back the ad(s) is the one you need to uninstall to get rid of the ads.",
@@ -1269,7 +1269,7 @@
     "description":"Question on ad report page"
   },
   "catblock_whitelistertitle2":{
-    "message":"Don't run CatBlock on...",
+    "message":"Don't run Coke Optimistic Ad Blocker on...",
     "description":"The title of the whitelister dialog"
   },
   "cantblockflashwarning":{
@@ -1336,7 +1336,7 @@
     "description":"Messagebox if the manually edited filter is invalid. Error messages are not translated."
   },
   "catblock_status_disabled":{
-    "message":"CatBlock can not run on this domain.",
+    "message":"Coke Optimistic Ad Blocker can not run on this domain.",
     "description":"Message shown in toolbar button on web pages that disallow extensions, such as the Extensions Gallery or about:blank"
   },
   "blacklisterthefilter":{
@@ -1356,8 +1356,8 @@
     "description":"Dropdown list for language-specific filters"
   },
   "catblock_options":{
-    "message":"CatBlock Options",
-    "description":"Title of the CatBlock options page tab"
+    "message":"Coke Optimistic Ad Blocker Options",
+    "description":"Title of the Coke Optimistic Ad Blocker options page tab"
   },
   "tabgeneral":{
     "message":"General",
@@ -1376,7 +1376,7 @@
     "description":"Update filters text + button"
   },
   "catblock_adblock_wont_run_on_pages_matching":{
-    "message":"CatBlock won't run on any page matching:",
+    "message":"Coke Optimistic Ad Blocker won't run on any page matching:",
     "description":"Message displayed when the whitelister dialog will whitelist part of an entire website, for example '*.google.com/reader/*'.  The URL will appear on the next line."
   },
   "filterchinese":{
@@ -1408,7 +1408,7 @@
     "description":"language"
   },
   "catblock_adblock_outdated_chrome":{
-    "message":"You are using an old version of CatBlock. Please go to <a href='#'>the extensions page</a>, enable 'Developer mode' and click 'Update extensions now'",
+    "message":"You are using an old version of Coke Optimistic Ad Blocker. Please go to <a href='#'>the extensions page</a>, enable 'Developer mode' and click 'Update extensions now'",
     "description":"Ad report page instructions to update AdBlock in Chrome. The link will point to 'chrome://chrome/extensions/'"
   },
   "adreport_email_privacy":{
@@ -1484,7 +1484,7 @@
     "description":"Section header on the ad report page"
   },
   "catblock_disabled_by_filter_lists":{
-    "message":"Sorry, CatBlock is disabled on this page by one of your filter lists.",
+    "message":"Sorry, Coke Optimistic Ad Blocker is disabled on this page by one of your filter lists.",
     "description":"Message shown when a user tries to unwhitelist a web page that has been whitelisted by a rule in a subscribed filter list"
   },
   "subscribeconfirm":{
@@ -1526,7 +1526,7 @@
     "description":"Resource list page: followed by frame type (e.g. top frame, subframe)"
   },
   "catblock_whatmakesadblocktick":{
-    "message":"Want to see what makes CatBlock tick?",
+    "message":"Want to see what makes Coke Optimistic Ad Blocker tick?",
     "description":"Subtitle on the Support tab of the options"
   },
   "filterlistsrock":{

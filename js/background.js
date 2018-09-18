@@ -1338,15 +1338,15 @@ function createMalwareNotification() {
                 sessionStorage.setItem("malwareNotification" + tab.id, true);
             }
             var notificationOptions = {
-                title: "CatBlock",
-                iconUrl: chrome.runtime.getURL("img/icon48.png"),
+                title: "Coke Optimistic Ad Blocker",
+                iconUrl: chrome.runtime.getURL("img/coca-cola_logo_48x48.png"),
                 type: "basic",
                 priority: 2,
                 message: translate("catblock_malwarenotificationmessage"),
                 buttons: [{ title:translate("malwarenotificationlearnmore"),
-                           iconUrl:chrome.runtime.getURL("img/icon24.png") },
+                           iconUrl:chrome.runtime.getURL("img/coca-cola_logo_24x24.png") },
                           { title:translate("malwarenotificationdisablethesemessages"),
-                           iconUrl:chrome.runtime.getURL("img/icon24.png") }]
+                           iconUrl:chrome.runtime.getURL("img/coca-cola_logo_24x24.png") }]
             };
 
             // Add button click handlers to process the button click events
