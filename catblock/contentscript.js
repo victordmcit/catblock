@@ -443,7 +443,6 @@ var picinjection = {
     },
 
     translate: function(key) {
-
         var text = {
             "explanation": {
                 en: "AdBlock now shows you cats instead of ads!",
@@ -615,7 +614,6 @@ if (!SAFARI) {
     // Augment hidden ads on Blink-based browsers
     function augmentHiddenElements(selector) {
         var ads = document.querySelectorAll(selector);
-
         for (var i = 0; i < ads.length; i++) {
             picinjection._augmentHiddenSectionContaining(ads[i]);
         }
