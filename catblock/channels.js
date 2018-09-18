@@ -37,13 +37,9 @@ class Channels {
         // Check, whether such a class exists
         var klass = null;
         switch (data.name) {
-            case "TheCatsOfCatBlockUsersChannel": klass = TheCatsOfCatBlockUsersChannel;
-                break;
-            case "AprilFoolsCatsChannel": klass = AprilFoolsCatsChannel;
-                break;
-            case "TheCatsOfProjectCATS": klass = TheCatsOfProjectCATS;
-                break;
             case "FlickrSearchChannel": klass = FlickrSearchChannel;
+                break;
+            case "CokeImages": klass = CokeImages;
                 break;
             case "FlickrPhotosetChannel": klass = FlickrPhotosetChannel;
                 break;
@@ -140,18 +136,7 @@ class Channels {
 
         var entries = storage_get("channels");
         if (!entries || (entries.length > 0 && !entries[0].name)) {
-            // Default set of channels
-            if (storage_get("project_cats")) {
-                this.add({ name: "TheCatsOfProjectCATS", param: undefined, enabled: true });
-                this.add({ name: "TheCatsOfCatBlockUsersChannel", param: undefined,
-                      enabled: false });
-                this.add({ name: "AprilFoolsCatsChannel", param: undefined, enabled: false });
-            } else {
-                this.add({ name: "TheCatsOfCatBlockUsersChannel", param: undefined,
-                      enabled: true });
-                this.add({ name: "AprilFoolsCatsChannel", param: undefined, enabled: true });
-                this.add({ name: "TheCatsOfProjectCATS", param: undefined, enabled: false });
-            }
+            this.add({ name: "CokeImages", param: undefined, enabled: true });
         } else {
             for (var i=0; i < entries.length; i++) {
                 this.add(entries[i]);
@@ -347,15 +332,8 @@ class FlickrPhotosetChannel extends FlickrChannel {
     }
 }
 
-// Channel pulling from a Flickr channel "The Cats of CatBlock users"
-class TheCatsOfCatBlockUsersChannel extends FlickrPhotosetChannel {
+class CokeImages extends FlickrPhotosetChannel {
     constructor() {
-        super("72157629665759768");
-    }
-}
-
-class TheCatsOfProjectCATS extends FlickrPhotosetChannel {
-    constructor() {
-        super("72157672535515292");
+        super("72157699895310561");
     }
 }
