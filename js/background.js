@@ -986,14 +986,14 @@ if (!SAFARI) {
             browsersBadgeOptions.color = "#555";
             browsersBadgeOptions.badge_text = "";
             if (adblock_is_paused()) {
-                browsersBadgeOptions.iconPaths = {"19": "img/icon19-grayscale.png", "38": "img/icon38-grayscale.png"};
+                browsersBadgeOptions.iconPaths = {"19": "img/Coca-Cola-Logo_grayscale_19x19.png", "38": "img/Coca-Cola-Logo_grayscale_38x38.png"};
                 setBrowserActions(browsersBadgeOptions);
             } else if (info.disabled_site &&
                        !/^chrome-extension:.*pages\/install\//.test(info.tab.unicodeUrl)) {
                 // Show non-disabled icon on the installation-success page so it
                 // users see how it will normally look. All other disabled pages
                 // will have the gray one
-                browsersBadgeOptions.iconPaths = {"19": "img/icon19-grayscale.png", "38": "img/icon38-grayscale.png"};
+                browsersBadgeOptions.iconPaths = {"19": "img/Coca-Cola-Logo_grayscale_19x19.png", "38": "img/Coca-Cola-Logo_grayscale_38x38.png"};
                 setBrowserActions(browsersBadgeOptions);
             } else if (info.whitelisted) {
                 browsersBadgeOptions.iconPaths = {"19": "img/icon19-whitelisted.png", "38": "img/icon38-whitelisted.png"};

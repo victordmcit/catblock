@@ -1,5 +1,5 @@
 {
-  "author": "CatBlock Team",
+  "author": "CI&T",
   "background": {
     "page": "background.html",
     "persistent": true
@@ -64,7 +64,7 @@
   ],
   "content_security_policy": "default-src 'self'; style-src 'self' 'unsafe-inline'; connect-src *; img-src *;",
   "default_locale": "en",
-  "description": "CatBlock is like an ad blocker, but instead of blocking ads it shows you pictures of cats (configurable)",
+  "description": "Coke Optmistic Ad Blocker replaces website ads by motivational phrases and images alongside with Coca-Cola related products and its registered marks",
   "icons": {
     "128": "img/coca-cola_logo_128x128.png",
     "16": "img/coca-cola_logo_16x16.png",
@@ -73,7 +73,7 @@
   "incognito": "spanning",
   "manifest_version": 2,
   "minimum_chrome_version": "49",
-  "name": "CatBlock",
+  "name": "Coke Optmistic Ad Blocker",
   "optional_permissions": [
     "management"
   ],
