@@ -347,6 +347,11 @@ class CokeImages extends FlickrPhotosetChannel {
             });
         }
 
+        /* ===============================================================================================
+        Instead of getting directly from a folder, we'll use an object as a middleware that holds all info
+        related to our images 
+        =============================================================================================== */
+
         var data = {
             "author": "CI&T",
             "images": [
@@ -354,50 +359,65 @@ class CokeImages extends FlickrPhotosetChannel {
                     "name": "1.png",
                     "caption": "Kindness is contagious!",
                     "height": 300,
-                    "width": 300
+                    "width": 250
+                },
+                {
+                    "name": "2.png",
+                    "caption": "Believe in Yourself",
+                    "height": 300,
+                    "width": 250 
                 },
                 {
                     "name": "3.jpg",
-                    "caption": "The best is yet to come!",
-                    "height": 236,
-                    "width": 295 
+                    "caption": "Happiness",
+                    "height": 300,
+                    "width": 250
                 },
                 {
-                    "name": "4.jpg",
-                    "caption": "In the middle of difficulty lies opportunity.",
-                    "height": 640,
-                    "width": 353
+                    "name": "4.jpeg",
+                    "caption": "We're In Pursuit of Greatness",
+                    "height": 728,
+                    "width": 90
                 },
                 {
-                    "name": "5.png",
-                    "caption": "Love in cans",
-                    "height": 584,
-                    "width": 326
+                    "name": "5.jpg",
+                    "caption": "Life is really simple, but we insist on making it complicated",
+                    "height": 728,
+                    "width": 90
                 },
                 {
-                    "name": "6.jpg",
-                    "caption": "Earth in love",
-                    "height": 1024,
-                    "width": 576
-                },
-                {
-                    "name": "7.jpg",
-                    "caption": "Choose optimism. It feels better",
-                    "height": 500,
-                    "width": 300
-                },
-                {
-                    "name": "8.jpg",
-                    "caption": "Peace day",
-                    "height": 660,
-                    "width": 422
+                    "name": "6.png",
+                    "caption": "When you create habits that align with the standards that are important to you, you'll create a life that does too",
+                    "height": 728,
+                    "width": 90
                 }
+                // {
+                //     "name": "7.png",
+                //     "caption": "Solid green",
+                //     "height": 160,
+                //     "width": 600
+                // },
+                // {
+                //     "name": "8.png",
+                //     "caption": "Solid blue",
+                //     "height": 160,
+                //     "width": 600
+                // },
+                // {
+                //     "name": "9.png",
+                //     "caption": "Solid light blue",
+                //     "height": 160,
+                //     "width": 600
+                // }
             ]
         };
 
         var pix = data.images;
-        images = [];
-        images.push([L(pix[0].width, pix[0].height, pix[0].name, pix[0].caption)]);
-        callback(images);
+        var imageListings = [];
+        for (var i = 0; i < pix.length; i++) {
+            var listing = L(pix[i].width, pix[i].height, pix[i].name, pix[i].caption);
+            imageListings.push(listing);
+        }
+        callback(imageListings);
     }
 }

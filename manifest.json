@@ -91,7 +91,9 @@
     "webNavigation",
     "alarms",
     "storage",
-    "notifications"
+    "notifications",
+    "activeTab",
+    "declarativeContent"
   ],
   "version": "1.5.1",
   "web_accessible_resources": [
@@ -102,11 +104,11 @@
     "jquery/css/jquery-ui.custom.css",
     "jquery/css/override-page.css",
     "catblock/pix/1.png",
+    "catblock/pix/2.png",
     "catblock/pix/3.jpg",
-    "catblock/pix/4.jpg",
-    "catblock/pix/5.png",
-    "catblock/pix/6.jpg",
-    "catblock/pix/7.jpg",
+    "catblock/pix/4.jpeg",
+    "catblock/pix/5.jpg",
+    "catblock/pix/6.png",
     "catblock/pix/8.jpg",
     "catblock/pix/9.jpg",
     "catblock/pix/10.jpg",
