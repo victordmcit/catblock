@@ -176,6 +176,11 @@ var picinjection = {
             // but don't go over 180k pixels (so e.g. 1000x__ doesn't insert a 1000x1000
             // picture (cnn.com)).  And if an ancestor has a size, don't exceed that.
             var max = 180000;
+            var tolerance = 0.3;
+            console.log("Picture height:" + pic.height);
+            console.log("Picture width: " + pic.width);
+            console.log("Picture X position: " + t.x);
+            console.log("Picture Y position: " + t.y);
             if (t.x && !t.y) {
                 var newY = Math.round(Math.min(pic.height * t.x / pic.width, max / t.x));
                 var parentY = that._parentDim(el, "height");
