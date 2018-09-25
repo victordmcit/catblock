@@ -1,0 +1,47 @@
+{
+    "author": "CI&T",
+    "images": [
+        {
+            "name": "1.png",
+            "caption": "Kindness is contagious!",
+            "height": 300,
+            "width": 300
+        },
+        {
+            "name": "3.jpg",
+            "caption": "The best is yet to come!",
+            "height": 236,
+            "width": 295 
+        },
+        {
+            "name": "4.jpg",
+            "caption": "In the middle of difficulty lies opportunity.",
+            "height": 640,
+            "width": 353
+        },
+        {
+            "name": "5.png",
+            "caption": "Love in cans",
+            "height": 584,
+            "width": 326
+        },
+        {
+            "name": "6.jpg",
+            "caption": "Earth in love",
+            "height": 1024,
+            "width": 576
+        },
+        {
+            "name": "7.jpg",
+            "caption": "Choose optimism. It feels better",
+            "height": 500,
+            "width": 300
+        },
+        {
+            "name": "8.jpg",
+            "caption": "Peace day",
+            "height": 660,
+            "width": 422
+        }
+    ]
+}

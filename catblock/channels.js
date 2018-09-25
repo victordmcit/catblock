@@ -334,6 +334,70 @@ class FlickrPhotosetChannel extends FlickrChannel {
 
 class CokeImages extends FlickrPhotosetChannel {
     constructor() {
-        super("72157699895310561");
+        super();
+    }
+
+    _getLatestListings(callback) {
+        function L(w, h, f, c) {
+            var folder = chrome.runtime.getURL("catblock/pix/");
+            return new Listing({
+                width: w, height: h, url: folder + f,
+                attribution_url: "https://www.ciandt.com",
+                title: c
+            });
+        }
+
+        var data = {
+            "author": "CI&T",
+            "images": [
+                {
+                    "name": "1.png",
+                    "caption": "Kindness is contagious!",
+                    "height": 300,
+                    "width": 300
+                },
+                {
+                    "name": "3.jpg",
+                    "caption": "The best is yet to come!",
+                    "height": 236,
+                    "width": 295 
+                },
+                {
+                    "name": "4.jpg",
+                    "caption": "In the middle of difficulty lies opportunity.",
+                    "height": 640,
+                    "width": 353
+                },
+                {
+                    "name": "5.png",
+                    "caption": "Love in cans",
+                    "height": 584,
+                    "width": 326
+                },
+                {
+                    "name": "6.jpg",
+                    "caption": "Earth in love",
+                    "height": 1024,
+                    "width": 576
+                },
+                {
+                    "name": "7.jpg",
+                    "caption": "Choose optimism. It feels better",
+                    "height": 500,
+                    "width": 300
+                },
+                {
+                    "name": "8.jpg",
+                    "caption": "Peace day",
+                    "height": 660,
+                    "width": 422
+                }
+            ]
+        };
+
+        var pix = data.images;
+        images = [];
+        images.push([L(pix[0].width, pix[0].height, pix[0].name, pix[0].caption)]);
+        callback(images);
     }
 }
